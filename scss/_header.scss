@@ -1,0 +1,17 @@
+header{
+
+    background-image: url("ojos.jpg");
+    object-fit: cover;
+
+    .logo{
+        width: 300px;
+        box-shadow: rgb(202, 200, 199) 25px 28px 40px;
+        border-radius: 8%;
+        margin-bottom: 40px;
+    }
+
+        .hover{
+            box-shadow: rgb(172, 175, 174) 20px 23px 37px;
+           }
+           
+}

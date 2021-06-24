@@ -1,0 +1,48 @@
+/* mobile- imagenes moda */
+@media only screen and (max-width:400px) and (min-width: 580px){
+    
+    .imgs{
+        background-color: burlywood;
+        display: flex;
+        flex-direction: column;
+        font-size: 30px;
+    }
+}
+
+/* mobile-portrait */
+@media only screen and (min-width: 320px) and (max-width:479px){
+
+   header{
+       img{
+           width: 30%;
+       }    
+   } 
+ .h2{
+     color: rgb(94, 92, 105);
+     font-size: 13px;
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ }
+ .wpp{
+  display: none;
+ }
+ .home-vestidos .home-conjunto .home-ri{
+     width: 100%;
+ }
+
+}
+
+/* Queries en moda mobile-portrait*/
+
+@media only screen and (min-width:320px) and (max-width:479px){
+
+    .cont-moda{
+        background-color: burlywood;
+        display: block;
+        width: 60%;
+        
+    }
+    .item-consejos{
+        font-size: 25px;
+        box-shadow: chocolate 30px 30px 30px;
+    }
+}

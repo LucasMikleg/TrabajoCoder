@@ -1,0 +1,12 @@
+
+@import "header";
+@import "base/iconos-img";
+@import "p-text";
+@import "base/query";
+@import "base/flexbox";
+@import "footer";
+
+header{
+    background-image: url("../ojos.jpg");
+    object-fit: cover;
+}

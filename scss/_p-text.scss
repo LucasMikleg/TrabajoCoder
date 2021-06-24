@@ -1,0 +1,44 @@
+p{
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 40px;
+    font-family: 'Dancing Script', cursive;
+    margin: 30px;
+}
+
+
+h1{
+    position: relative;
+    bottom: 300px;
+    left: 500px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 190px;
+}
+h2{
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 60px;
+    letter-spacing: 9px;
+    display: inline-block;
+}
+
+/* Pensaña moda */
+
+.cont-moda{
+    display: flex; 
+    margin-top: 100px;
+    margin-bottom: 100px;
+   flex-direction: column;
+   height: 100%;
+   float: left;
+
+   
+   .item-consejos{
+    border: solid 3px;
+    margin: 30px;
+    box-shadow: black;
+    display: flex; 
+    height: 100%;
+    font-size: 40px;
+
+   }
+
+}

@@ -1,0 +1,140 @@
+$colores:
+rgb(194, 197, 194),
+rgb(167, 165, 165),
+rgb(124, 124, 129),
+rgb(145, 145, 142);
+
+$maps: (
+   border: rgb(45, 46, 45),
+   textos: rgb(56, 56, 56),
+   fondo: rgb(223, 219, 219)
+); 
+
+%flexbox{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-radius: 10%;
+    width: 100%;
+    border: black solid;
+}
+
+body{
+    background-color: map-get($maps, fondo) !important;
+
+}
+
+.iconos{
+    width: 70px;
+    margin: 30px;
+    transition: all 1s;
+    transition-timing-function: ease-out;
+
+    &:hover{
+        transform: scale(2);
+    }
+}
+.wpp{
+    position: fixed;
+    right: 30px;
+    bottom: 20px;
+    transition: all 2s;
+    float: left;
+    z-index: 1;
+}
+
+.margin-home{
+
+    margin: 80px;
+
+    .container-imgs{
+        display: flex;
+        flex-direction: row;
+        margin-top: auto;
+        margin-bottom: auto;   
+            
+    }
+    .home-vestidos{
+        float: right;
+        width: 500px;
+        border-radius: 10%;
+        box-shadow: grey;
+        margin: 30px;
+        transition: all 2s;
+
+    
+    }
+    .home-conjunto{
+        float: left;
+        width: 500px;
+        border-radius: 10%;
+        margin: 30px;
+        transition: all 2s;
+  
+    
+    }
+    .home-ri{
+        float: right;
+        width: 500px;
+        border-radius: 10%;
+        margin-top: 20px;
+        margin-left: 30px;
+        padding-right: 30px;
+        transition: all 2s;
+  
+    
+    }
+}
+
+
+
+/* Pestaña moda */
+
+.containergrid{
+    padding: 20px;    
+ 
+    .imgs{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-auto-rows: repeat(5, 1fr);
+        width: 100%;
+        height: 100%;
+        object-fit: cover; 
+    
+        .gallery-item{
+            position: relative;
+            justify-content: center;
+    
+            .moda{
+                width: 300px;
+                border: steelblue solid;
+                box-shadow: teal 20px 20px 40px;
+                transition: all 1s;
+                border-radius: 15%;
+            
+                &:hover{
+                    transform: scale(2);
+                }
+            }
+        }
+    
+    }
+}
+
+/* Carouseles */
+.carousel img{
+    margin: auto;
+    border-radius: 10%;
+}
+
+
+/* Imagenes debajo de carouseles */
+.container-imgs{
+    display: flex;
+    flex-direction: row;
+
+    .imgg{
+        @extend %flexbox;
+
+    }
+}
