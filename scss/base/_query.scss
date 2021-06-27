@@ -33,7 +33,7 @@
 
 /* Queries en moda mobile-portrait*/
 
-@media only screen and (min-width:320px) and (max-width:479px){
+@media only screen and (min-width:360px) and (max-width:640px){
 
     .cont-moda{
         background-color: burlywood;
@@ -44,5 +44,13 @@
     .item-consejos{
         font-size: 25px;
         box-shadow: chocolate 30px 30px 30px;
+    }
+
+    .imgg{
+        border: none;
+    }
+
+    p{
+        font-size: 5px;
     }
 }
