@@ -96,7 +96,7 @@ body {
   justify-content: center;
 }
 .containergrid .imgs .gallery-item .moda {
-  width: 300px;
+  width: 220px;
   border: steelblue solid;
   box-shadow: teal 20px 20px 40px;
   transition: all 1s;
@@ -144,7 +144,6 @@ h2 {
   display: flex;
   margin-top: 100px;
   margin-bottom: 100px;
-  font-size: 60px;
   flex-direction: column;
   height: 100%;
   float: left;
@@ -155,6 +154,7 @@ h2 {
   box-shadow: black;
   display: flex;
   height: 100%;
+  font-size: 40px;
 }
 
 /* mobile- imagenes moda */
@@ -163,7 +163,7 @@ h2 {
     background-color: burlywood;
     display: flex;
     flex-direction: column;
-    font-size: 30px;
+    font-size: 15px;
   }
 }
 /* mobile-portrait */
@@ -185,9 +185,13 @@ h2 {
   .home-vestidos .home-conjunto .home-ri {
     width: 100%;
   }
+
+  p {
+    font-size: 15px;
+  }
 }
 /* Queries en moda mobile-portrait*/
-@media only screen and (min-width: 320px) and (max-width: 479px) {
+@media only screen and (min-width: 360px) and (max-width: 640px) {
   .cont-moda {
     background-color: burlywood;
     display: block;
@@ -197,6 +201,14 @@ h2 {
   .item-consejos {
     font-size: 25px;
     box-shadow: chocolate 30px 30px 30px;
+  }
+
+  .imgg {
+    border: none;
+  }
+
+  p {
+    font-size: 10px;
   }
 }
 /* Extends*/
@@ -225,7 +237,5 @@ header {
   background-image: url("../ojos.jpg");
   object-fit: cover;
 }
-
-/*pegada*/
 
 /*# sourceMappingURL=style.css.map */

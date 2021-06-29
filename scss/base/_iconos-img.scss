@@ -92,6 +92,7 @@ body{
 
 .containergrid{
     padding: 20px;    
+    
  
     .imgs{
         display: grid;
@@ -104,16 +105,19 @@ body{
         .gallery-item{
             position: relative;
             justify-content: center;
+            
     
             .moda{
-                width: 300px;
+                width: 220px;
                 border: steelblue solid;
                 box-shadow: teal 20px 20px 40px;
                 transition: all 1s;
                 border-radius: 15%;
-            
+                
+ 
                 &:hover{
                     transform: scale(2);
+
                 }
             }
         }

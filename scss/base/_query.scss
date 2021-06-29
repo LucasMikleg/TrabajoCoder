@@ -5,7 +5,7 @@
         background-color: burlywood;
         display: flex;
         flex-direction: column;
-        font-size: 30px;
+        font-size: 15px;
     }
 }
 
@@ -28,7 +28,9 @@
  .home-vestidos .home-conjunto .home-ri{
      width: 100%;
  }
-
+ p{
+    font-size: 15px;
+}
 }
 
 /* Queries en moda mobile-portrait*/
@@ -51,6 +53,6 @@
     }
 
     p{
-        font-size: 5px;
+        font-size: 10px;
     }
 }
