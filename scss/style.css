@@ -192,10 +192,6 @@ h2 {
     width: 100%;
   }
 
-  p {
-    font-size: 50px;
-  }
-
   video {
     width: auto;
   }
@@ -215,10 +211,6 @@ h2 {
 
   .imgg {
     border: none;
-  }
-
-  p {
-    font-size: 50px;
   }
 
   video {
