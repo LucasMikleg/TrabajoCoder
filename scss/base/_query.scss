@@ -7,6 +7,9 @@
         flex-direction: column;
         font-size: 30px;
     }
+    video{
+        width: auto;
+    }
 }
 
 /* mobile-portrait */
@@ -31,6 +34,9 @@
  p{
     font-size: 30px;
 }
+video{
+    width: auto;
+}
 }
 
 /* Queries en moda mobile-portrait*/
@@ -54,5 +60,8 @@
 
     p{
         font-size: 10px;
+    }
+    video{
+        width: 50px;
     }
 }

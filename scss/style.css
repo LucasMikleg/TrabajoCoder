@@ -1,0 +1,255 @@
+@charset "UTF-8";
+header {
+  background-image: url("ojos.jpg");
+  object-fit: cover;
+}
+header .logo {
+  width: 300px;
+  box-shadow: #cac8c7 25px 28px 40px;
+  border-radius: 8%;
+  margin-bottom: 40px;
+}
+header .hover {
+  box-shadow: #acafae 20px 23px 37px;
+}
+
+.container-imgs .imgg {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border-radius: 10%;
+  width: 100%;
+  border: black solid;
+}
+
+body {
+  background-color: #dfdbdb !important;
+}
+
+.iconos {
+  width: 70px;
+  margin: 30px;
+  transition: all 1s;
+  transition-timing-function: ease-out;
+}
+.iconos:hover {
+  transform: scale(2);
+}
+
+.wpp {
+  position: fixed;
+  right: 30px;
+  bottom: 20px;
+  transition: all 2s;
+  float: left;
+  z-index: 1;
+}
+
+.margin-home {
+  margin: 80px;
+}
+.margin-home .container-imgs {
+  display: flex;
+  flex-direction: row;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.margin-home .home-vestidos {
+  float: right;
+  width: 500px;
+  border-radius: 10%;
+  box-shadow: grey;
+  margin: 30px;
+  transition: all 2s;
+}
+.margin-home .home-conjunto {
+  float: left;
+  width: 500px;
+  border-radius: 10%;
+  margin: 30px;
+  transition: all 2s;
+}
+.margin-home .home-ri {
+  float: right;
+  width: 500px;
+  border-radius: 10%;
+  margin-top: 20px;
+  margin-left: 30px;
+  padding-right: 30px;
+  transition: all 2s;
+}
+
+/* Pestaña moda */
+.containergrid {
+  padding: 20px;
+}
+.containergrid .imgs {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: repeat(5, 1fr);
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.containergrid .imgs .gallery-item {
+  position: relative;
+  justify-content: center;
+}
+.containergrid .imgs .gallery-item .moda {
+  width: 220px;
+  border: steelblue solid;
+  box-shadow: teal 20px 20px 40px;
+  transition: all 1s;
+  border-radius: 15%;
+}
+.containergrid .imgs .gallery-item .moda:hover {
+  transform: scale(2);
+  z-index: 1;
+}
+
+/* Carouseles */
+.carousel img {
+  margin: auto;
+  border-radius: 10%;
+}
+
+/* Imagenes debajo de carouseles */
+.container-imgs {
+  display: flex;
+  flex-direction: row;
+}
+p {
+  font-family: "Shadows Into Light", cursive;
+  font-size: 40px;
+  font-family: "Dancing Script", cursive;
+  margin: 30px;
+  font-size: 20vw;
+}
+
+h1 {
+  position: relative;
+  bottom: 300px;
+  left: 500px;
+  font-family: "Dancing Script", cursive;
+  font-size: 190px;
+}
+
+h2 {
+  font-family: "Shadows Into Light", cursive;
+  font-size: 60px;
+  letter-spacing: 9px;
+  display: inline-block;
+}
+
+/* Pensaña moda */
+.cont-moda {
+  display: flex;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  flex-direction: column;
+  height: 100%;
+  float: left;
+}
+.cont-moda .item-consejos {
+  border: solid 3px;
+  margin: 30px;
+  box-shadow: black;
+  display: flex;
+  height: 100%;
+  font-size: 40px;
+}
+
+/* mobile- imagenes moda */
+@media only screen and (max-width: 400px) and (min-width: 580px) {
+  .imgs {
+    background-color: burlywood;
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+  }
+
+  video {
+    width: auto;
+  }
+}
+/* mobile-portrait */
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+  header img {
+    width: 30%;
+  }
+
+  .h2 {
+    color: #5e5c69;
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  }
+
+  .wpp {
+    display: none;
+  }
+
+  .home-vestidos .home-conjunto .home-ri {
+    width: 100%;
+  }
+
+  p {
+    font-size: 30px;
+  }
+
+  video {
+    width: auto;
+  }
+}
+/* Queries en moda mobile-portrait*/
+@media only screen and (min-width: 360px) and (max-width: 640px) {
+  .cont-moda {
+    background-color: burlywood;
+    display: block;
+    width: 60%;
+  }
+
+  .item-consejos {
+    font-size: 25px;
+    box-shadow: chocolate 30px 30px 30px;
+  }
+
+  .imgg {
+    border: none;
+  }
+
+  p {
+    font-size: 10px;
+  }
+
+  video {
+    width: 50px;
+  }
+}
+/* Extends*/
+.container-imgs .imgg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.footer1 {
+  margin-top: 50px;
+}
+.footer1 .info-footer {
+  font-size: 20px;
+  margin-right: 200px;
+  float: right;
+}
+
+.list-home {
+  font-size: 30px;
+  border: black 1px solid;
+}
+
+header {
+  background-image: url("../ojos.jpg");
+  object-fit: cover;
+}
+
+/*# sourceMappingURL=style.css.map */
