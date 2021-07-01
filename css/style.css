@@ -238,4 +238,15 @@ header {
   object-fit: cover;
 }
 
+.form{
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+.mapa-info{
+  float: left;
+  margin: 50px;
+}
+
 /*# sourceMappingURL=style.css.map */
