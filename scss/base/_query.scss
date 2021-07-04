@@ -1,12 +1,7 @@
 /* mobile- imagenes moda */
 @media only screen and (max-width:400px) and (min-width: 580px){
     
-    .imgs{
-        background-color: burlywood;
-        display: flex;
-        flex-direction: column;
-        font-size: 30px;
-    }
+   
     video{
         width: auto;
     }
@@ -37,24 +32,3 @@ video{
 }
 
 /* Queries en moda mobile-portrait*/
-
-@media only screen and (min-width:360px) and (max-width:640px){
-
-    .cont-moda{
-        background-color: burlywood;
-        display: block;
-        width: 60%;
-        
-    }
-    .item-consejos{
-        font-size: 25px;
-        box-shadow: chocolate 30px 30px 30px;
-    }
-
-    .imgg{
-        border: none;
-    }
-    video{
-        width: 50px;
-    }
-}
