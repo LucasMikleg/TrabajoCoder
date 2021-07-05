@@ -190,27 +190,7 @@ h2 {
     font-size: 15px;
   }
 }
-/* Queries en moda mobile-portrait*/
-@media only screen and (min-width: 360px) and (max-width: 640px) {
-  .cont-moda {
-    background-color: burlywood;
-    display: block;
-    width: 60%;
-  }
 
-  .item-consejos {
-    font-size: 25px;
-    box-shadow: chocolate 30px 30px 30px;
-  }
-
-  .imgg {
-    border: none;
-  }
-
-  p {
-    font-size: 10px;
-  }
-}
 /* Extends*/
 .container-imgs .imgg {
   display: flex;
