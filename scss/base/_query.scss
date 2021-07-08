@@ -31,4 +31,22 @@ video{
 }
 }
 
+@media (min-width:768px) {
+    .gallery-container {
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .gallery__item:nth-child(3) {
+        grid-column-start: span 2;
+    }
+    .gallery__item:nth-child(4) {
+        grid-column-start: span 3;
+    }
+    .gallery__item:nth-child(5) {
+        grid-row-start: span 3;
+    }
+    .gallery__item:nth-child(9) {
+        grid-column-start: span 3;
+    }
+}
+
 /* Queries en moda mobile-portrait*/

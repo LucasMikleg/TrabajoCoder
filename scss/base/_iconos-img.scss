@@ -87,43 +87,39 @@ body{
 }
 
 
+/*Galeria moda*/
 
-/* Pestaña moda */
 
-.containergrid{
-    padding: 20px;    
-    
- 
-    .imgs{
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid-auto-rows: repeat(5, 1fr);
-        width: 100%;
-        height: 100%;
-        object-fit: cover; 
-    
-        .gallery-item{
-            position: relative;
-            justify-content: center;
-            
-            .moda{
-                width: 220px;
-                border: steelblue solid;
-                box-shadow: teal 20px 20px 40px;
-                transition: all 1s;
-                border-radius: 15%;
-                
- 
-                &:hover{
-                    transform: scale(2);
-                    z-index: 1;
-
-                }
-            }
-        }
-    
-    }
-}
+.gallery-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 300px;
+    padding: 20px;
+    grid-gap: 10px;
+  }
+  
+  .gallery__item{
+    position: relative;
+  }
+  
+  .gallery__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .gallery__item:nth-child(4) {
+    grid-column-start: span 2;
+  }
+  
+  .gallery__item:nth-child(5) {
+    grid-row-start: span 2;
+  }
+  
+  .gallery__item:nth-child(9) {
+    grid-column-start: span 2;
+  }
+  
 
 /* Carouseles */
 .carousel img{
