@@ -21,7 +21,7 @@
   <header>
     <div data-aos="fade-left">
         <a href="index.html">
-            <img src="Imagenes/logo.jpg" class="logo" alt="Logo de Affrodita">
+            <img src="imagenes/logo.jpg" class="logo" alt="Logo de Affrodita">
         </a>
     </div>   
 
@@ -69,7 +69,7 @@
     </div>
 
   
-   <section>
+   <section class="container_maps">
        <div>
          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3395.975281315045!2d-63.04828668477352!3d-31.661896015338282!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95ccb0705d7150c3%3A0xbef7e2e7f701486c!2sHipolito%20Yrigoyen%2C%20Sacanta%2C%20C%C3%B3rdoba!5e0!3m2!1ses!2sar!4v1621037226124!5m2!1ses!2sar" style="border:0;" allowfullscreen="" loading="lazy" class="img-fluid w-100a" alt="img-fluid"></iframe>
            <div>
@@ -82,42 +82,44 @@
             </ul>
            </div>
        </div>
+
+       <form class="form container-fluid" action="enviar.php" method="POST" name="contact-form">
+      
+        <p class="fs-3">Dejanos tu consulta</p>
+    
+        <div class="form_t">
+    
+          <label for="name">Nombre</label>
+          <input type="text" id="name" name="nombre">
+    
+          <label for="mail">Email</label>
+          <input type="email" name="email" id="mail">
+    
+          <label for="asunto">Asunto</label>
+          <input type="subject"  id="asunto" name="asunto">
+    
+          <label for="mensaje">Mensaje</label>
+          <textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
+    
+          <input type="submit" value="Enviar">
+    
+        </div>
+    
+       </form>
    </section>
 
    
-   <form class="form container-fluid" action="enviar.php" method="POST" name="contact-form">
-      
-    <p>Dejanos tu consulta</p>
-
-      <label for="name">Nombre</label>
-      <input type="text" id="name" name="nombre">
-
-      <label for="mail">Email</label>
-      <input type="email" name="email" id="mail">
-
-      <label for="asunto">Asunto</label>
-      <input type="subject"  id="asunto" name="asunto">
-
-      <label for="mensaje">Mensaje</label>
-      <textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
-
-      <input type="submit" value="Enviar">
-
-   </form>
-
-
-
-  <article class="c-info">
-    <h2 class="h2ctc"> ¿ Mientras tomas nota por que no algo de Musica ?</h2>
-     <div>
-       <p class="p-ctc">Queremos que te sientas comodo hasta visitando nuestra pestaña de contacto,
+  <article>
+     <div class="c-info">
+       <p class="p-ctc fs-1">Queremos que te sientas comodo hasta visitando nuestra pestaña de contacto,
         nos tomamos la molestia de colocarte una Play list para que te sientas a gusto.
       </p>
     </div>
+    <iframe class="spotify" src="https://open.spotify.com/embed/playlist/1uPMjfT3phQjkBfbtb8gTg" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+
   </article>
 
   <!--Lista spotify-->
-    <iframe src="https://open.spotify.com/embed/playlist/1uPMjfT3phQjkBfbtb8gTg" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 
     <a href="index.html">Volver al menu principal</a>
 

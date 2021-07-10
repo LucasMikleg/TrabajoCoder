@@ -13,10 +13,6 @@ header .hover {
   box-shadow: #acafae 20px 23px 37px;
 }
 
-body {
-  background-color: blue;
-}
-
 .container-imgs .imgg {
   display: flex;
   flex-direction: row;
@@ -27,7 +23,7 @@ body {
 }
 
 body {
-  background-image: url("../../imagenes/olas-en-la-orilla-del-mar-4609.jpg") !important;
+  background-color: #dfdbdb !important;
 }
 
 .iconos {
@@ -50,7 +46,7 @@ body {
 }
 
 .margin-home {
-  margin: 25px;
+  margin: 80px;
 }
 .margin-home .container-imgs {
   display: flex;
@@ -63,7 +59,7 @@ body {
   width: 500px;
   border-radius: 10%;
   box-shadow: grey;
-  margin: 10px;
+  margin: 30px;
   transition: all 2s;
 }
 .margin-home .home-conjunto {
@@ -167,62 +163,10 @@ h2 {
   font-family: "Dancing Script", cursive;
 }
 
-/*Pestaña de contacto*/
-.form {
-  display: grid;
-  grid-template-columns: 2;
-}
-.form .form_t {
-  width: 150px;
-}
-
-.container_maps {
-  display: flex;
-  flex-direction: row;
-}
-.container_maps .list-contact {
-  font-size: 20px;
-  margin-top: auto;
-}
-.container_maps .form {
-  margin-left: 200px;
-}
-
-/*Pestaña vestidos*/
-.title-vestidos p {
-  font-size: 50px;
-}
-
-/*tabla talles*/
-.sect-tt {
-  margin: 70px;
-}
-.sect-tt h2 {
-  font-size: 30px;
-  font-family: "Dancing Script", cursive;
-  letter-spacing: 20px;
-}
-.sect-tt tr {
-  font-family: "Dancing Script", cursive;
-  font-size: 30px;
-  border: black solid;
-}
-.sect-tt th {
-  border: black solid;
-}
-
 /* mobile- imagenes moda */
 @media only screen and (max-width: 400px) and (min-width: 580px) {
   video {
     width: auto;
-  }
-
-  .c-info {
-    display: none;
-  }
-
-  .wpp {
-    display: none;
   }
 }
 /* mobile-portrait */
@@ -248,10 +192,6 @@ h2 {
   video {
     width: auto;
   }
-
-  .wpp {
-    display: none;
-  }
 }
 @media (min-width: 768px) {
   .gallery-container {
@@ -272,34 +212,6 @@ h2 {
 
   .gallery__item:nth-child(9) {
     grid-column-start: span 3;
-  }
-}
-@media (max-width: 580px) {
-  /*Contacto*/
-  article .c-info {
-    display: none;
-  }
-
-  article .spotify {
-    display: none;
-  }
-
-  /*tabla de talles*/
-  .sect-tt {
-    margin: 70px;
-  }
-  .sect-tt h2 {
-    font-size: 20px;
-    font-family: "Dancing Script", cursive;
-    letter-spacing: 5px;
-  }
-  .sect-tt tr {
-    font-family: "Dancing Script", cursive;
-    font-size: 20px;
-  }
-
-  .wpp {
-    display: none;
   }
 }
 /* Queries en moda mobile-portrait*/

@@ -43,3 +43,57 @@ h2{
    }
 
 }
+
+/*Pestaña de contacto*/
+
+.form{
+    display: grid;
+    grid-template-columns: 2;
+
+    .form_t{
+        width: 150px;
+    }
+}
+
+.container_maps{
+    display: flex;
+    flex-direction: row;
+
+    .list-contact{
+        font-size: 20px;
+        margin-top: auto;
+    }
+
+    .form{
+        margin-left: 200px;
+    }
+
+}
+
+
+/*Pestaña vestidos*/
+
+.title-vestidos p {
+    font-size: 50px;
+}
+
+/*tabla talles*/
+
+.sect-tt{
+    margin: 70px;
+
+    h2{
+        font-size: 30px;
+        font-family: 'Dancing Script', cursive;
+        letter-spacing: 20px;
+    }
+
+    tr{
+        font-family: 'Dancing Script', cursive;
+        font-size: 30px;
+        border: black solid;
+    }
+    th{
+        border: black solid;
+    }
+}

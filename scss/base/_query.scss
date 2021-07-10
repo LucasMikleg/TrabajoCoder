@@ -5,6 +5,13 @@
     video{
         width: auto;
     }
+
+    .c-info{
+        display: none;
+    }
+    .wpp{
+        display: none;
+    }
 }
 
 /* mobile-portrait */
@@ -29,6 +36,11 @@
 video{
     width: auto;
 }
+
+.wpp{
+    display: none;
+}
+
 }
 
 @media (min-width:768px) {
@@ -46,6 +58,40 @@ video{
     }
     .gallery__item:nth-child(9) {
         grid-column-start: span 3;
+    }
+
+  
+}
+
+@media (max-width:580px){
+
+    /*Contacto*/
+
+    article .c-info{
+        display: none;
+    }
+    article .spotify{
+        display: none;
+    }
+
+    /*tabla de talles*/
+    .sect-tt{
+        margin: 70px;
+    
+        h2{
+            font-size: 20px;
+            font-family: 'Dancing Script', cursive;
+            letter-spacing: 5px;
+        }
+    
+        tr{
+            font-family: 'Dancing Script', cursive;
+            font-size: 20px;
+        }
+    }
+
+    .wpp{
+        display: none;
     }
 }
 
