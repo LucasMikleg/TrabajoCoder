@@ -19,10 +19,6 @@ $maps: (
     border: black solid;
 }
 
-body {
-    background-image: url("../../imagenes/olas-en-la-orilla-del-mar-4609.jpg") !important;
-}
-
 .iconos{
     width: 70px;
     margin: 30px;
@@ -45,6 +41,7 @@ body {
 .margin-home{
 
     margin: 25px;
+
 
     .container-imgs{
         display: flex;

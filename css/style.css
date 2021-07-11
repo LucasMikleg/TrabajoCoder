@@ -14,7 +14,12 @@ header .hover {
 }
 
 body {
-  background-color: blue;
+  background-image: url("../imagenes/olas-en-la-orilla-del-mar-4609.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  margin-top: 0%;
+  width: 100%;
 }
 
 .container-imgs .imgg {
@@ -24,10 +29,6 @@ body {
   border-radius: 10%;
   width: 100%;
   border: black solid;
-}
-
-body {
-  background-image: url("../../imagenes/olas-en-la-orilla-del-mar-4609.jpg") !important;
 }
 
 .iconos {
@@ -253,7 +254,24 @@ h2 {
     display: none;
   }
 }
+@media (max-width: 768px) {
+  .info-footer {
+    display: none;
+  }
+
+  .container_maps {
+    display: flex;
+    flex-direction: column;
+  }
+  .container_maps .list-contat {
+    font-size: 20px;
+  }
+  .container_maps .form {
+    overflow-x: hidden;
+  }
+}
 @media (min-width: 768px) {
+  /*moda*/
   .gallery-container {
     grid-template-columns: repeat(4, 1fr);
   }
@@ -274,6 +292,20 @@ h2 {
     grid-column-start: span 3;
   }
 }
+@media (max-width: 1030px) {
+  /*footer*/
+  .contenedorfooter {
+    margin: 0;
+    padding: 0;
+  }
+  .contenedorfooter .columna-1 {
+    margin: 0;
+    padding: 0;
+  }
+  .contenedorfooter .columna-3 {
+    display: none;
+  }
+}
 @media (max-width: 580px) {
   /*Contacto*/
   article .c-info {
@@ -281,6 +313,10 @@ h2 {
   }
 
   article .spotify {
+    display: none;
+  }
+
+  .footer-form {
     display: none;
   }
 
@@ -311,18 +347,78 @@ h2 {
   flex-wrap: wrap;
 }
 
-.footer1 {
-  margin-top: 50px;
-}
-.footer1 .info-footer {
-  font-size: 20px;
-  margin-right: 200px;
-  float: right;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.list-home {
+footer {
+  width: 100%;
+  color: black;
+}
+
+.contenedorfooter {
+  width: 100%;
+  max-width: 1919px;
+}
+
+.conteiner-columna {
+  display: flex;
+  justify-content: center;
+}
+
+.columna-1 {
+  max-width: 639px;
+  width: 33%;
+  padding-left: 80px;
+}
+
+.columna-1 h4 {
+  font-size: 40px;
+  font-family: "Dancing Script", cursive;
+}
+
+.fila {
+  margin-top: 20px;
+  display: flex;
+}
+
+.fila img {
+  width: 35px;
+  height: 35px;
+}
+
+.fila label {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.columna-2 {
+  max-width: 639px;
+  width: 33%;
+  padding-left: 80px;
+}
+
+.columna-2 h4 {
+  font-size: 40px;
+  font-family: "Dancing Script", cursive;
+}
+
+.fila2 p {
+  margin-top: 25px;
   font-size: 30px;
-  border: black 1px solid;
+}
+
+.columna-3 {
+  max-width: 639px;
+  width: 34%;
+  padding-left: 80px;
+}
+
+.columna-3 h4 {
+  font-size: 40px;
+  font-family: "Dancing Script", cursive;
 }
 
 header {

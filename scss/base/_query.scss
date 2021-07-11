@@ -42,8 +42,28 @@ video{
 }
 
 }
+@media (max-width:768px){
+    .info-footer{
+        display: none;
+    }
+
+   .container_maps{
+       display: flex;
+       flex-direction: column;
+       .list-contat{
+        font-size: 20px;
+        
+    }
+       .form{
+        overflow-x: hidden;
+    }
+   }
+    
+}
 
 @media (min-width:768px) {
+
+    /*moda*/
     .gallery-container {
         grid-template-columns: repeat(4, 1fr);
     }
@@ -60,9 +80,23 @@ video{
         grid-column-start: span 3;
     }
 
-  
 }
 
+@media (max-width:1030px){
+        
+    /*footer*/
+    .contenedorfooter{
+        margin: 0;
+        padding: 0;
+        .columna-1{
+            margin: 0;
+            padding: 0;
+        }
+        .columna-3{
+            display: none;
+        }
+    }
+}
 @media (max-width:580px){
 
     /*Contacto*/
@@ -73,7 +107,11 @@ video{
     article .spotify{
         display: none;
     }
+    .footer-form{
+        display: none;
+    }
 
+  
     /*tabla de talles*/
     .sect-tt{
         margin: 70px;
