@@ -1,4 +1,9 @@
 @charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+}
+
 header {
   background-image: url("ojos.jpg");
   object-fit: cover;
@@ -15,11 +20,10 @@ header .hover {
 
 body {
   background-image: url("../imagenes/olas-en-la-orilla-del-mar-4609.jpg");
+  background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  margin-top: 0%;
-  width: 100%;
 }
 
 .container-imgs .imgg {
@@ -177,15 +181,7 @@ h2 {
   width: 150px;
 }
 
-.container_maps {
-  display: flex;
-  flex-direction: row;
-}
-.container_maps .list-contact {
-  font-size: 20px;
-  margin-top: auto;
-}
-.container_maps .form {
+.form {
   margin-left: 200px;
 }
 
@@ -210,6 +206,22 @@ h2 {
 }
 .sect-tt th {
   border: black solid;
+}
+
+.container_maps {
+  width: 100px;
+  display: flex;
+  flex-direction: row;
+}
+.container_maps .container_list {
+  margin: 80px;
+}
+.container_maps .container_list .list-contact {
+  font-family: "Dancing Script", cursive;
+  font-size: 40px;
+}
+.container_maps form {
+  padding: 20px;
 }
 
 /* mobile- imagenes moda */
@@ -255,19 +267,33 @@ h2 {
   }
 }
 @media (max-width: 768px) {
-  .info-footer {
-    display: none;
-  }
-
   .container_maps {
     display: flex;
     flex-direction: column;
   }
-  .container_maps .list-contat {
-    font-size: 20px;
+  .container_maps .container_list {
+    margin: 40px;
   }
-  .container_maps .form {
-    overflow-x: hidden;
+  .container_maps .container_list .list-contact {
+    font-family: "Dancing Script", cursive;
+    font-size: 30px;
+  }
+
+  .columna-1 {
+    display: flex;
+    flex-direction: row;
+  }
+  .columna-1 h4 {
+    display: none;
+  }
+
+  .columna-2 {
+    display: none;
+  }
+
+  .form {
+    position: relative;
+    right: 10px;
   }
 }
 @media (min-width: 768px) {
@@ -298,15 +324,19 @@ h2 {
     margin: 0;
     padding: 0;
   }
-  .contenedorfooter .columna-1 {
+  .contenedorfooter .container-columna {
     margin: 0;
     padding: 0;
   }
-  .contenedorfooter .columna-3 {
+  .contenedorfooter .container-columna .columna-1 {
+    margin: 0;
+    padding: 0;
+  }
+  .contenedorfooter .container-columna .columna-3 {
     display: none;
   }
 }
-@media (max-width: 580px) {
+@media (max-width: 900px) {
   /*Contacto*/
   article .c-info {
     display: none;
@@ -334,7 +364,31 @@ h2 {
     font-size: 20px;
   }
 
+  /*whatsapp*/
   .wpp {
+    display: none;
+  }
+
+  /*footer*/
+  .contenedorfooter {
+    display: flex;
+    flex-direction: column;
+  }
+  .contenedorfooter .container-columna {
+    margin: 0%;
+    padding: 0%;
+  }
+  .contenedorfooter .container-columna .columna-2 {
+    margin: 0;
+    padding: 0;
+  }
+  .contenedorfooter .columna-1 {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    left: 20px;
+  }
+  .contenedorfooter .columna-3 {
     display: none;
   }
 }

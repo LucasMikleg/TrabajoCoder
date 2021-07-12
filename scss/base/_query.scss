@@ -43,26 +43,38 @@ video{
 
 }
 @media (max-width:768px){
-    .info-footer{
+    .container_maps{
+     display: flex;
+     flex-direction: column;
+     .container_list{
+         margin: 40px;
+         .list-contact{
+            font-family: 'Dancing Script', cursive;
+            font-size: 30px;
+         }
+
+     }
+    
+    }
+    .columna-1{
+        h4{
+            display: none;
+        }
+        display: flex;
+        flex-direction: row;
+    }
+    .columna-2{
         display: none;
     }
-
-   .container_maps{
-       display: flex;
-       flex-direction: column;
-       .list-contat{
-        font-size: 20px;
-        
+    .form{
+        position: relative;
+        right: 10px;
     }
-       .form{
-        overflow-x: hidden;
-    }
-   }
-    
+ 
 }
 
 @media (min-width:768px) {
-
+    
     /*moda*/
     .gallery-container {
         grid-template-columns: repeat(4, 1fr);
@@ -79,7 +91,7 @@ video{
     .gallery__item:nth-child(9) {
         grid-column-start: span 3;
     }
-
+ 
 }
 
 @media (max-width:1030px){
@@ -88,16 +100,22 @@ video{
     .contenedorfooter{
         margin: 0;
         padding: 0;
-        .columna-1{
+        .container-columna{
             margin: 0;
             padding: 0;
+            .columna-1{
+                margin: 0;
+                padding: 0;
+            }
+            .columna-3{
+                display: none;
+            }
         }
-        .columna-3{
-            display: none;
-        }
+      
     }
+
 }
-@media (max-width:580px){
+@media (max-width:900px){
 
     /*Contacto*/
 
@@ -128,9 +146,37 @@ video{
         }
     }
 
+    /*whatsapp*/
     .wpp{
         display: none;
     }
+
+    /*footer*/
+    .contenedorfooter{
+        display: flex;
+        flex-direction: column;
+        .container-columna{
+            margin: 0%;
+            padding: 0%;
+           
+            .columna-2{
+                margin: 0;
+                padding: 0;
+            }         
+        }
+        .columna-1{
+            margin: 0;
+            padding: 0;   
+            position: absolute;
+            left: 20px;
+
+        }
+        .columna-3{
+            display: none;
+        }
+    }
+ 
+
 }
 
 /* Queries en moda mobile-portrait*/

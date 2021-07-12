@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 header{
 
     background-image: url("ojos.jpg");
@@ -18,9 +22,8 @@ header{
 
 body{
    background-image: url("../imagenes/olas-en-la-orilla-del-mar-4609.jpg");
+   background-position: top;
    background-repeat: no-repeat;
    background-size: cover;
    background-attachment: fixed;
-   margin-top: 0%;
-   width: 100%;
 }

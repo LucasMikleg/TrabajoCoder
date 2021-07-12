@@ -55,21 +55,9 @@ h2{
     }
 }
 
-.container_maps{
-    display: flex;
-    flex-direction: row;
-
-    .list-contact{
-        font-size: 20px;
-        margin-top: auto;
-    }
-
     .form{
         margin-left: 200px;
     }
-
-}
-
 
 /*Pestaña vestidos*/
 
@@ -96,4 +84,25 @@ h2{
     th{
         border: black solid;
     }
+}
+
+.container_maps{
+    width: 100px;
+    display: flex;
+    flex-direction: row;
+
+    .container_list{
+        margin: 80px;
+
+        .list-contact{
+            font-family: 'Dancing Script', cursive;
+        font-size: 40px;
+        }
+        
+    }
+
+    form{
+        padding: 20px;
+    }
+    
 }
