@@ -173,18 +173,12 @@ h2 {
 }
 
 /*Pestaña de contacto*/
-.form {
-  display: grid;
-  grid-template-columns: 2;
+.container_maps {
+  width: auto;
 }
-.form .form_t {
-  width: 150px;
+.container_maps .container_list {
+  margin: auto;
 }
-
-.form {
-  margin-left: 200px;
-}
-
 /*Pestaña vestidos*/
 .title-vestidos p {
   font-size: 50px;
@@ -222,6 +216,11 @@ h2 {
 }
 .container_maps form {
   padding: 20px;
+}
+
+/*Nosotros*/
+.nosotros {
+  font-family: "Dancing Script", cursive;
 }
 
 /* mobile- imagenes moda */
@@ -270,12 +269,15 @@ h2 {
   .container_maps {
     display: flex;
     flex-direction: column;
+    width: auto;
+  }
+  .container_maps .form {
+    width: 200px;
   }
   .container_maps .container_list {
-    margin: 40px;
+    margin: 50px;
   }
   .container_maps .container_list .list-contact {
-    font-family: "Dancing Script", cursive;
     font-size: 30px;
   }
 
@@ -352,16 +354,24 @@ h2 {
 
   /*tabla de talles*/
   .sect-tt {
-    margin: 70px;
+    margin: auto;
   }
-  .sect-tt h2 {
-    font-size: 20px;
+  .sect-tt .container-talla {
+    margin: 30px;
+  }
+  .sect-tt .container-talla h2 {
+    font-size: 20;
     font-family: "Dancing Script", cursive;
     letter-spacing: 5px;
+    font-size: 50px;
   }
-  .sect-tt tr {
-    font-family: "Dancing Script", cursive;
-    font-size: 20px;
+  .sect-tt .container-talla .talla {
+    font-size: 10px;
+    margin: auto;
+  }
+  .sect-tt .container-talla .medida {
+    font-size: 18px;
+    margin: auto;
   }
 
   /*whatsapp*/
@@ -425,7 +435,7 @@ footer {
 .columna-1 {
   max-width: 639px;
   width: 33%;
-  padding-left: 80px;
+  margin: auto;
 }
 
 .columna-1 h4 {
@@ -451,7 +461,7 @@ footer {
 .columna-2 {
   max-width: 639px;
   width: 33%;
-  padding-left: 80px;
+  margin: auto;
 }
 
 .columna-2 h4 {
@@ -464,15 +474,21 @@ footer {
   font-size: 30px;
 }
 
-.columna-3 {
-  max-width: 639px;
-  width: 34%;
-  padding-left: 80px;
+.form_footer {
+  display: flex;
+  flex-direction: column;
 }
 
+.columna-3 {
+  margin-right: 50px;
+}
 .columna-3 h4 {
   font-size: 40px;
   font-family: "Dancing Script", cursive;
+}
+.columna-3 .form_t {
+  display: flex;
+  flex-direction: column;
 }
 
 header {

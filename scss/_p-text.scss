@@ -46,18 +46,15 @@ h2{
 
 /*Pestaña de contacto*/
 
-.form{
-    display: grid;
-    grid-template-columns: 2;
-
-    .form_t{
-        width: 150px;
+.container_maps{
+    width: auto;
+    .container_list{
+        margin: auto;
+        .list-contact{
+            
+        }
     }
 }
-
-    .form{
-        margin-left: 200px;
-    }
 
 /*Pestaña vestidos*/
 
@@ -105,4 +102,10 @@ h2{
         padding: 20px;
     }
     
+}
+
+/*Nosotros*/
+.nosotros{
+    font-family: 'Dancing Script', cursive;
+   
 }

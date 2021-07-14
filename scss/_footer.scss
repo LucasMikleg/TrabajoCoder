@@ -18,7 +18,7 @@ footer {
 .columna-1{
     max-width:639px;
     width: 33%;
-    padding-left: 80px;  
+    margin: auto;
 }
 .columna-1 h4 {
     font-size: 40px;
@@ -39,7 +39,7 @@ footer {
 .columna-2{
     max-width: 639px;
     width: 33%;
-    padding-left: 80px; 
+    margin: auto;
 }
 .columna-2 h4{
     font-size: 40px;
@@ -49,14 +49,23 @@ footer {
     margin-top: 25px;
     font-size: 30px;
 }
-.columna-3 {
-    max-width: 639px;
-    width: 34%;
-    padding-left: 80px;
+.form_footer{
+  display: flex;
+  flex-direction: column;
+   
 }
-.columna-3 h4{
-    font-size: 40px;
-    font-family: 'Dancing Script', cursive;
+.columna-3{
+
+    margin-right: 50px;
+    h4{
+        font-size: 40px;
+        font-family: 'Dancing Script', cursive;
+    }
+    .form_t{
+        display: flex;
+        flex-direction: column;
+    }
+   
 }
 
 

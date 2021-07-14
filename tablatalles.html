@@ -62,7 +62,7 @@
      <div class="wpp">
         <h3>whatsapp</h3>
         <a href="https://wa.me/3533501785?text=Hola%20Affrodita%20quiero%20la%20prenda%20numero:" target="_blank">
-        <img src="iconos/whatsapp.png" class="iconos" alt="wpAffro">
+        <img src="imagenes/iconos/whatsapp.png" class="iconos" alt="wpAffro">
         </a>
     </div>
 
@@ -75,9 +75,9 @@
 
     <h2>Pecho</h2>
 
-   <div>
-    <table border="1px">
-        <tr class="fs-2">
+   <div class="container-talla">
+    <table>
+        <tr class="talla">
             <th>XS</th>   
             <th>S</th>
             <th>M</th>
@@ -86,7 +86,7 @@
             <th>XXL</th>
             <th>XXXL</th>    
         </tr>
-        <tr class="fs-2">
+        <tr class="medida">
             <td>82 -87 cm</td>
             <td>88- 94 cm</td>
             <td>95 -102 cm</td>
@@ -98,9 +98,9 @@
     </table> 
  </div>
     <h2>Cintura</h2>
-   <div> 
-    <table border=" 1px">
-        <tr class="fs-2">           
+   <div class="container-talla"> 
+    <table>
+        <tr class="talla">           
             <th>XS</th>   
             <th>S</th>
             <th>M</th>
@@ -109,7 +109,7 @@
             <th>XXL</th>
             <th>XXXL</th>    
         </tr>
-        <tr class="fs-2">
+        <tr class="medida">
             <td>71 - 75 cm</td>
             <td>76 - 82 cm</td>
             <td>83 - 90 cm</td>
@@ -122,9 +122,9 @@
    </div>
 
    <h2>Cadera</h2>
-   <div> 
-    <table border=" 1px">
-        <tr class="fs-2">           
+   <div class="container-talla"> 
+    <table>
+        <tr class="talla">           
             <th>XS</th>   
             <th>S</th>
             <th>M</th>
@@ -133,7 +133,7 @@
             <th>XXL</th>
             <th>XXXL</th>    
         </tr>
-        <tr class="fs-2">
+        <tr class="medida">
             <td>82 - 86 cm</td>
             <td>87 - 93 cm</td>
             <td>94 - 101 cm</td>
@@ -146,9 +146,9 @@
    </div>
 
    <h2>Tipo de la entrepierna</h2>
-   <div> 
-    <table border=" 1px">
-        <tr class="fs-2">           
+   <div  class="container-talla"> 
+    <table>
+        <tr class="talla">           
             <th>XS</th>   
             <th>S</th>
             <th>M</th>
@@ -157,7 +157,7 @@
             <th>XXL</th>
             <th>XXXL</th>    
         </tr>
-        <tr class="fs-2">
+        <tr class="medida">
             <td>81 cm</td>
             <td>81.5 cm</td>
             <td>82 cm</td>
@@ -178,8 +178,11 @@
     
   <!-- Footer -->
 
+
   <footer >
-    <div class="contenedorfooter">
+    <div class="contenedorfooter" data-aos="fade-down"
+    data-aos-easing="linear"
+    data-aos-duration="1500">
         <div class="conteiner-columna">
           <div class="columna-1">
   
@@ -187,21 +190,21 @@
   
                 <div class="fila">
                      <a href="https://www.facebook.com/jenni.acosta.100">
-                         <img src="../Proyectofinal-3/iconos/facebook.png" alt="facebook">
+                         <img src="imagenes/iconos/facebook.png" alt="facebook">
                      </a>
                      <label>Siguenos en Facebook</label>
                 </div>
   
                 <div class="fila">
                      <a href="https://www.instagram.com/affrodita_ok/">
-                        <img src="../Proyectofinal-3/iconos/instagram.png"  alt="instagram">
+                        <img src="imagenes/iconos/instagram.png"  alt="instagram">
                      </a>
                      <label>Siguenos en Instagram</label>
                 </div>
                 
                 <div class="fila">
                      <a href="https://wa.me/3533501785?text=Hola%20Affrodita%20quiero%20la%20prenda%20numero:">
-                        <img src="../Proyectofinal-3/iconos/whatsapp.png" alt="whatsapp">
+                        <img src="imagenes/iconos/whatsapp.png" alt="whatsapp">
                      </a>
                      <label>Tira un whats app</label>
                 </div>     
@@ -221,10 +224,8 @@
                 <h4>Deja tu comentario</h4>
                 
                 <form class="form container-fluid" action="enviar.php" method="POST" name="contact-form">
-        
-                  <p class="fs-3">Dejanos tu consulta</p>
               
-                  <div class="form_t">
+                  <div class="form_footer">
   
                     <label for="mail">Email</label>
                     <input type="email" name="email" id="mail">
@@ -244,7 +245,7 @@
   
     </div>
    
-  </footer>>
+  </footer>
   
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>

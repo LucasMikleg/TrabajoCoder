@@ -46,10 +46,14 @@ video{
     .container_maps{
      display: flex;
      flex-direction: column;
+     width: auto;
+
+     .form{
+         width: 200px;
+     }
      .container_list{
-         margin: 40px;
+         margin: 50px;
          .list-contact{
-            font-family: 'Dancing Script', cursive;
             font-size: 30px;
          }
 
@@ -91,7 +95,6 @@ video{
     .gallery__item:nth-child(9) {
         grid-column-start: span 3;
     }
- 
 }
 
 @media (max-width:1030px){
@@ -132,17 +135,26 @@ video{
   
     /*tabla de talles*/
     .sect-tt{
-        margin: 70px;
+        margin: auto;
+        .container-talla{
+            margin: 30px;
+
+            h2{
+                font-size: 20;
+                font-family: 'Dancing Script', cursive;
+                letter-spacing: 5px;
+                font-size: 50px;
+            }
     
-        h2{
-            font-size: 20px;
-            font-family: 'Dancing Script', cursive;
-            letter-spacing: 5px;
-        }
-    
-        tr{
-            font-family: 'Dancing Script', cursive;
-            font-size: 20px;
+            .talla{
+                font-size: 10px;
+                margin: auto;
+            }
+            .medida{
+                font-size: 18px;
+                margin: auto;
+            }
+
         }
     }
 

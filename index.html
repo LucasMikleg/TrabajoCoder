@@ -71,7 +71,11 @@ para que te lleves la mejor ropa">
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <li><a class="dropdown-item" href="moda.html">Moda</a></li>
-                <li><a class="dropdown-item" href="consejos.html">Consejos</a></li>
+
+                <!--El link consejos lleva BLANK y sin footer ya que me gusta la pagina lisa sin esas cosas
+                el BLANK es para que ya que no lleva footer se abra aparte y no te saque de la pagina-->
+                
+                <li><a class="dropdown-item" href="consejos.html" target="_BLANK">Consejos</a></li>
                 <li>
                   <hr class="dropdown-divider">
                 </li>
@@ -171,7 +175,9 @@ para que te lleves la mejor ropa">
 
 
   <footer >
-    <div class="contenedorfooter">
+    <div class="contenedorfooter" data-aos="fade-down"
+    data-aos-easing="linear"
+    data-aos-duration="1500">
         <div class="conteiner-columna">
           <div class="columna-1">
   
@@ -213,8 +219,6 @@ para que te lleves la mejor ropa">
                 <h4>Deja tu comentario</h4>
                 
                 <form class="form container-fluid" action="enviar.php" method="POST" name="contact-form">
-        
-                  <p class="fs-3">Dejanos tu consulta</p>
               
                   <div class="form_t">
   
