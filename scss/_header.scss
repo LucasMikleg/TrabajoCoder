@@ -8,10 +8,14 @@ header{
     object-fit: cover;
 
     .logo{
-        width: 300px;
+        position: relative;
+        transform: translate(-50%, -0%);
+        left: 50%;
+        width: auto;
         box-shadow: rgb(202, 200, 199) 25px 28px 40px;
         border-radius: 8%;
         margin-bottom: 40px;
+        opacity: 70%;
     }
 
         .hover{
@@ -26,4 +30,5 @@ body{
    background-repeat: no-repeat;
    background-size: cover;
    background-attachment: fixed;
+   width: auto;
 }

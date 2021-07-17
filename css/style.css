@@ -9,10 +9,14 @@ header {
   object-fit: cover;
 }
 header .logo {
+  position: relative;
+  transform: translate(-50%, 0%);
+  left: 50%;
   width: 300px;
   box-shadow: #cac8c7 25px 28px 40px;
   border-radius: 8%;
   margin-bottom: 40px;
+  opacity: 70%;
 }
 header .hover {
   box-shadow: #acafae 20px 23px 37px;
@@ -24,6 +28,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+  width: auto;
 }
 
 .container-imgs .imgg {
@@ -52,6 +57,11 @@ body {
   transition: all 2s;
   float: left;
   z-index: 1;
+}
+
+.img-fluid {
+  border-radius: 7%;
+  padding: 5px;
 }
 
 .margin-home {
@@ -138,6 +148,10 @@ p {
   font-size: 20vw;
 }
 
+.list-home {
+  margin: 30px;
+}
+
 h1 {
   position: relative;
   bottom: 300px;
@@ -179,6 +193,7 @@ h2 {
 .container_maps .container_list {
   margin: auto;
 }
+
 /*Pestaña vestidos*/
 .title-vestidos p {
   font-size: 50px;
@@ -371,7 +386,7 @@ h2 {
   }
   .sect-tt .container-talla .medida {
     font-size: 18px;
-    margin: auto;
+    margin: a;
   }
 
   /*whatsapp*/
